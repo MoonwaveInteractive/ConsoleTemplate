@@ -12,4 +12,4 @@ You can also display help information on commands by using:
 [command] /?
 ```
 
-This template makes light usage of Moonwave.Text for displaying command help information. It is recommended that you implement your own text formatter as Moonwave.Text is currently incapable of text wrapping.
+This template makes light usage of Moonwave.Text for displaying command help information. Moonwave.Text has been integrated into the project instead of being a dependancy in order to increase portability. It is recommended that you implement your own text formatter as Moonwave.Text is currently incapable of text wrapping.
